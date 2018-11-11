@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/app.js --exec  \"npm run lint && node\"",
-    "lint": "eslint src/**/*.js",
-    "lint:fix": "eslint src/**/*.js  --fix",
+    "start": "nodemon src/app.js --exec",
     "seed": "node seed"
   },
   "keywords": [],
@@ -19,12 +17,12 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "eslint": "^5.8.0",
-    "nodemon": "^1.18.6",
+    "eslint": "^5.9.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.6"
   }
 }
